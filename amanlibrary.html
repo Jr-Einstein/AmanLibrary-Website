@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aman Library</title>
+</head>
+
+<link rel="stylesheet" href="css/style.css">
+<style>
+   body{
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       color: white;
+       margin: 0px;
+    padding: 0px;
+    background: url("img/bg.jpg") ;}
+    .left{
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: -3px;}
+
+    .left img{
+width: 48px;
+font-size: 2%;}
+.left div{
+text-align: center;
+font-size: 15px;
+}
+    .mid{
+        display: block;
+        width: 49%;
+        margin: 10px 20%;
+ 
+
+    }
+    .right{
+        position: absolute;
+    right: 18px;
+    top: 22px;
+
+    display: inline-block;
+    }
+
+.navbar{
+    color:white;
+    display: inline-block;
+}
+.navbar li{
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px 10px;
+}
+.navbar li a:hover,.navbar li a:active{
+    text-decoration: underline;
+color:grey;
+
+}
+.btn{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 3px 4px;
+    border: 2px solid grey;
+    border-radius: 7px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.btn:hover{
+background-color: rgb(58, 52, 52);}
+.container{
+    margin: 33px 118px;
+    width: 33%;
+    border: 2px solid white;
+    padding: 20px 40px;
+    border-radius: 15px;
+    border-width: 3px;
+}
+
+.formgroup input{
+    text-align: center;
+    display: block;
+    width: 314px;
+    padding: 7px;
+    border: 2px solid black;
+    margin: 3px auto;
+    font-size: 16px;
+    border-radius: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.container h1{
+    text-align: center;
+    }
+.container button{
+    display: block;
+    text-align: center;
+    margin: 15px 99px;
+    padding: 10px 41px;
+    font-size: 16px;
+}
+.header{
+    background-color: black;
+    border-radius: 40px;
+    padding: 6px 12px;
+}
+
+
+</style>
+<body>
+    <header class="header">
+ <!-- Left Box for Logo -->
+<div class="left">
+<div class="left">
+<img src="img/logo.png" alt="">
+<div> Aman Library </div>
+
+</div>
+</div>
+<!-- Mid Box for Navigation -->
+<div class="mid">
+        <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Membership</a></li>
+                <li><a href="#">Contact Us</a></li>
+                </ul>
+</div>
+<!-- Right Box For Buttons -->
+<div class="right">
+<button class="btn">Join<br> Membership</button>
+<Button class="btn"> E-Library <br> Portal </Button>
+</div>
+</header>
+<div class="container">
+    <h1 class="header">Join Our Library Now</h1>
+    <form action="noaction.php">
+        <div class="formgroup">
+            <input type="text" name="" placeholder="Enter Your Name">
+        </div>
+        <div class="formgroup">
+                <input type="text" name="" placeholder="Enter Your Gender">
+            </div>
+            <div class="formgroup">
+                <div class="formgroup">
+                    <div class="formgroup">
+                            <input type="date" name=""
+                             placeholder="Enter Your DOB">
+                        </div>
+                <input type="email" name="" placeholder="Enter Your Email ID">
+                    </div>
+                    <input type="text" name="" placeholder="Enter Your Contact Number">
+                </div>
+                <div class="formgroup">
+                    <input type="text" name="" placeholder="Enter Your Locality">
+            
+                    </div>
+                    <button class="btn">
+                        Submit
+                    </button>
+    </form>
+</div>
+<h5>
+This Is a Project Created By Aman Kumar Singh Using HTML/CSS.  &copy;                    
+</h6>
+
+
+
+</body>
+</html>
